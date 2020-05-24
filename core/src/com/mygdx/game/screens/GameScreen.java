@@ -49,6 +49,18 @@ public class GameScreen extends BaseScreen {
         images.add(new Texture(Gdx.files.internal("images/sun.jpg"), true));
         images.add(new Texture(Gdx.files.internal("images/flowers.jpg"), true));
 
+        images.add(new Texture(Gdx.files.internal("images/rio1.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/rio2.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/rio3.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/heidilyydia.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/pizza.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/ranta.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/hepat.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/pajunkissa.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/puu.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/kissa.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/linna.jpg"), true));
+
         // pick a random image
         Collections.shuffle(images);
         Texture texture = images.get(0);
@@ -105,8 +117,6 @@ public class GameScreen extends BaseScreen {
             JigsawPuzzleGame.setActiveScreen(new MenuScreen());
             return false;
         });
-
-
 
     }
 

@@ -7,6 +7,7 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.utils.viewport.FitViewport;
 
 public abstract class BaseScreen implements Screen, InputProcessor {
 
@@ -15,8 +16,8 @@ public abstract class BaseScreen implements Screen, InputProcessor {
     protected Table uiTable;
 
     public BaseScreen() {
-        mainStage = new Stage();
-        uiStage = new Stage();
+        mainStage = new Stage(new FitViewport(800, 600));
+        uiStage = new Stage(new FitViewport(800, 600));
         uiTable = new Table();
         uiTable.setFillParent(true);
         uiStage.addActor(uiTable);

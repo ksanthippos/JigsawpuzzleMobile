@@ -17,10 +17,10 @@ public class MenuScreen extends BaseScreen {
     public void initialize() {
 
         // background
-        BaseActor ocean = new BaseActor(0, 0, mainStage);
-        ocean.loadTexture("background.jpg");
-        ocean.setSize(800, 600);
-        BaseActor.setWorldBounds(ocean);
+        BaseActor background = new BaseActor(0, 0, mainStage);
+        background.loadTexture("background.jpg");
+        background.setSize(800, 600);
+        BaseActor.setWorldBounds(background);
         Label title = new Label("Jigsaw Puzzle Game", BaseGame.labelStyle);
         title.moveBy(0, 100);
 

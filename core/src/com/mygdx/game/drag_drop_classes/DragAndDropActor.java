@@ -74,6 +74,7 @@ public class DragAndDropActor extends BaseActor {
     @Override
     public void act(float dt) {
         super.act(dt);
+        boundToWorld();
     }
 
     public void onDragStart() { }

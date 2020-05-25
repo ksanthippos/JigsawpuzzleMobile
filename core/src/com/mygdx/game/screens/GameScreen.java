@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.Event;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -48,17 +49,10 @@ public class GameScreen extends BaseScreen {
         images.add(new Texture(Gdx.files.internal("images/sunset.jpg"), true));
         images.add(new Texture(Gdx.files.internal("images/sun.jpg"), true));
         images.add(new Texture(Gdx.files.internal("images/flowers.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/linna.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/kissa.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/puu.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/pajunkissa.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/rio1.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/rio2.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/figuuri.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/keikka.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/lyydia1.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/lyydiaheidi.jpg"), true));
-        images.add(new Texture(Gdx.files.internal("images/lyydiario.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/leipa.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/luumu.jpg"), true));
+        images.add(new Texture(Gdx.files.internal("images/mansikat.jpg"), true));
+
 
         // pick a random image
         Collections.shuffle(images);
